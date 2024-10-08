@@ -22,7 +22,7 @@ function RecentProjects() {
                             <img 
                               src={img} 
                               alt={title}
-                              className='z-10 absolute bottom-0 rounded-3xl h-[35vh]' 
+                              className='z-10 absolute bottom-0 rounded-xl h-[35vh]' 
                             />
                         </div>
                         <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
