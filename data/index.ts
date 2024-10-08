@@ -37,7 +37,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Tech enthusiast with a passion for Design.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -48,7 +48,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently Try to Redesign UI for apps & web ",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -75,7 +75,7 @@ export const navItems = [
       des: "Explore the responsive website with sleek animations and modern design. using React, Tailwind CSS parallax effects",
       img: "/p1.png",
       iconLists: ["/re.svg", "/tail.svg", "/vitejs.svg"],
-      link: "/ui.earth.com",
+      link: "https://brainwave-three-rose.vercel.app/",
     },
     {
       id: 2,
@@ -83,7 +83,7 @@ export const navItems = [
       des: "Designed a responsive SaaS landing page with dynamic animations using Framer Motion and React.",
       img: "/p2.png",
       iconLists: ["/next.svg", "/tail.svg", "/re.svg", "/fm.svg"],
-      link: "/https://light-saas-landing-page-z33k.vercel.app/",
+      link: "https://light-saas-landing-page-five.vercel.app/",
     },
     {
       id: 3,
@@ -91,7 +91,7 @@ export const navItems = [
       des: "MorDern and Dark theme Design Bank Website responsive for all device using ReactJS and TailwingCSS and vite.",
       img: "/p3.png",
       iconLists: ["/re.svg", "/tail.svg", "/vitejs.svg"],
-      link: "/ui.aiimg.com",
+      link: "https://hoo-banks.vercel.app/",
     },
     {
       id: 4,
@@ -99,7 +99,7 @@ export const navItems = [
       des: "Recreated Awwwards win LAZAREV. AI & ML website, combining GSAP animations and effects..",
       img: "/p4.png",
       iconLists: ["/html.svg", "/css.svg", "/js.svg", "/gsap.svg",],
-      link: "/ui.apple.com",
+      link: "https://vishavs15.github.io/lazarev_UI/",
     },
   ];
   

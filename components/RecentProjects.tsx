@@ -1,7 +1,5 @@
 import { projects } from '@/data'
-// import { title } from 'process'
 import React from 'react'
-// import { div } from 'three/webgpu'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
 
@@ -17,20 +15,20 @@ function RecentProjects() {
             {projects.map(({ id, title, des, img, iconLists, link, }) => (
                 <div key={id} className=' sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                     <PinContainer title={title} href={link}>
-                        <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[40vh] mb-10'>
-                            <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
+                        <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[35vh] mb-10'>
+                            <div className='relative w-full h-full rounded-3xl overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                 <img src="/bg.png" alt="bg-img"/>
                             </div>
                             <img 
                               src={img} 
                               alt={title}
-                              className='z-10 absolute bottom-0' 
+                              className='z-10 absolute bottom-0 rounded-3xl h-[35vh]' 
                             />
                         </div>
                         <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                             {title}
                         </h1>
-                        <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+                        <p className="opacity-50 mt-7 lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
                             {des}
                         </p>
 
